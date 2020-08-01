@@ -1,5 +1,5 @@
 import React from 'react';
-import '../stylesheets/show.scss';
+import '../stylesheets/character.scss';
 
 
 const Character = props => {
