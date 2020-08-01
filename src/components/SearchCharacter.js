@@ -11,11 +11,11 @@ const searchCharacter = props => {
     }
 
     return (
-        <form>
-            <label htmlFor='search'> Search Character: 
+        <>
+            <label htmlFor='search' className='search'> Search Character: 
             </label>
-            <input type='text' id='search' name='search' value={props.filterSearch} onChange={handleSearch}></input>
-        </form>
+            <input className='inputText' type='text' id='search' name='search' value={props.filterSearch} onChange={handleSearch}></input>
+        </>
     );
 };
 

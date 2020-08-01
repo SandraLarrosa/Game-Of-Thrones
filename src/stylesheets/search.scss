@@ -1,0 +1,34 @@
+.content__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    @media all and (min-width: 768px) {
+        flex-direction: row;
+    }
+}
+
+.search{
+    color: white;
+    font-size: 14px;
+    align-self: center;
+    padding: 10px;
+}
+
+.inputText {
+    font-size: 12px;
+    width: 150px;
+    height: 40px;
+    padding-left: 5px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+}
+
+.select {
+    cursor: pointer;
+    font-size: 10px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+}

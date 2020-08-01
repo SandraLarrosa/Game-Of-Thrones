@@ -11,8 +11,8 @@ const SearchHouse = props => {
     }
 
     return (
-        <form>
-            <label htmlFor='searchHouse'> HOUSES: 
+        <>
+            <label className='search' htmlFor='searchHouse'> HOUSES: 
             </label>
             <select className='select' name='house' id='searchHouse' onChange={handleSearch}>
                 <option value="all">Todos</option>
@@ -24,7 +24,7 @@ const SearchHouse = props => {
                 <option value="Tyrell">Tyrell</option>
                 <option value="Bolton">Bolton</option>
             </select>
-        </form>
+        </>
     );
 };
 

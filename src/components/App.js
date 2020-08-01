@@ -19,7 +19,6 @@ function App() {
     }
   };
 
-
   //Filtrado de personajes
   const filterCharacters = characters
     .filter((character) => {
