@@ -1,23 +1,19 @@
-import React, { useEffect, useState } from 'react';
-import getDataFromApi from '../data/getDataFromApi';
+import React, { useState } from 'react';
+/* import getDataFromApi from '../data/getDataFromApi'; */
 import '../stylesheets/App.scss';
-import ShowList from './ShowList';
+import CharacterList from './CharacterList';
+import data from '../data/data.json';
 
 
 
 function App() {
-  const [shows, setShows] = useState([])
-
-  useEffect(() => {
-    getDataFromApi().then(data => {
-      setShows(data);
-    })
-  }, [])
+  const [character, setCharacter] = useState(data)
 
 
   return (
-    <div className='App'>
-      <ShowList data={shows}/>
+    <div className='wrapper'>
+      <h1 className='title'>Game Of Thrones</h1>
+       <CharacterList data={character}/>}
     </div>
   );
 }
