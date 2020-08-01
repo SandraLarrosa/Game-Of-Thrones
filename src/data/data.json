@@ -25,7 +25,7 @@
     "lastName": "Targaryen",
     "fullName": "Daenerys Targaryen",
     "title": "Mother of Dragons",
-    "family": " Targaryen",
+    "family": "Targaryen",
     "image": "daenerys.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/daenerys.jpg"
   },
@@ -35,7 +35,7 @@
     "lastName": "Stark",
     "fullName": "Arya Stark",
     "title": "No One",
-    "family": " Stark",
+    "family": "Stark",
     "image": "arya-stark.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/arya-stark.jpg"
   },
@@ -45,7 +45,7 @@
     "lastName": "Stark",
     "fullName": "Sansa Stark",
     "title": "Lady of Winterfell",
-    "family": " Stark",
+    "family": "Stark",
     "image": "sansa-stark.jpeg",
     "imageUrl": "https://thronesapi.com/assets/images/sansa-stark.jpeg"
   },
@@ -55,7 +55,7 @@
     "lastName": "Stark",
     "fullName": "Brandon Stark",
     "title": "Lord of Winterfell",
-    "family": " Stark",
+    "family": "Stark",
     "image": "bran-stark.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/bran-stark.jpg"
   },
@@ -65,7 +65,7 @@
     "lastName": "Stark",
     "fullName": "Ned Stark",
     "title": "Lord of Winterfell",
-    "family": " Stark",
+    "family": "Stark",
     "image": "ned-stark.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/ned-stark.jpg"
   },
@@ -75,7 +75,7 @@
     "lastName": "Baratheon",
     "fullName": "Robert Baratheon",
     "title": "Lord of the Seven Kingdoms",
-    "family": " Baratheon",
+    "family": "Baratheon",
     "image": "robert-baratheon.jpeg",
     "imageUrl": "https://thronesapi.com/assets/images/robert-baratheon.jpeg"
   },
@@ -85,7 +85,7 @@
     "lastName": "Lannister",
     "fullName": "Jamie Lannister",
     "title": "Lord Commander of the Kingsguard",
-    "family": " Lannister",
+    "family": "Lannister",
     "image": "jaime-lannister.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/jaime-lannister.jpg"
   },
@@ -95,7 +95,7 @@
     "lastName": "Lannister",
     "fullName": "Cersei Lannister",
     "title": "Lady of Casterly Rock",
-    "family": " Lannister",
+    "family": "Lannister",
     "image": "cersei.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/cersei.jpg"
   },
@@ -105,7 +105,7 @@
     "lastName": "Stark",
     "fullName": "Catelyn Stark",
     "title": "Lady of Winterfell",
-    "family": " Stark",
+    "family": "Stark",
     "image": "catelyn-stark.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/catelyn-stark.jpg"
   },
@@ -115,7 +115,7 @@
     "lastName": "Stark",
     "fullName": "Rob Stark",
     "title": "Lord of Winterfell",
-    "family": " Stark",
+    "family": "Stark",
     "image": "robb-stark.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/robb-stark.jpg"
   },
@@ -125,7 +125,7 @@
     "lastName": "Greyjoy",
     "fullName": "Theon Greyjoy",
     "title": "Captain of Sea Bitch",
-    "family": " Greyjoy",
+    "family": "Greyjoy",
     "image": "theon.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/theon.jpg"
   },
@@ -135,7 +135,7 @@
     "lastName": "Baratheon",
     "fullName": "Joffrey Baratheon",
     "title": "Lord of the Seven Kingdoms, Protector of the Realm",
-    "family": " Lannister",
+    "family": "Lannister",
     "image": "joffrey.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/joffrey.jpg"
   },
@@ -145,7 +145,7 @@
     "lastName": "Lannister",
     "fullName": "Tyrion Lannister",
     "title": "Hand of the Queen",
-    "family": " Lannister",
+    "family": "Lannister",
     "image": "tyrion-lannister.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/tyrion-lannister.jpg"
   },
@@ -155,7 +155,7 @@
     "lastName": "Clegane",
     "fullName": "The Hound",
     "title": "The Hound",
-    "family": " Clegane",
+    "family": "Clegane",
     "image": "the-hound.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/the-hound.jpg"
   },
@@ -165,7 +165,7 @@
     "lastName": "Baelish",
     "fullName": "Petyr Baelish",
     "title": "Littlefinger",
-    "family": " Baelish",
+    "family": "Baelish",
     "image": "littlefinger.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/littlefinger.jpg"
   },
@@ -175,7 +175,7 @@
     "lastName": "Seaworth",
     "fullName": "Davos Seaworth",
     "title": "Hand of the King",
-    "family": " Seaworth",
+    "family": "Seaworth",
     "image": "davos-seaworth.png",
     "imageUrl": "https://thronesapi.com/assets/images/davos-seaworth.png"
   },
@@ -185,7 +185,7 @@
     "lastName": "Baratheon",
     "fullName": "Stannis Baratheon",
     "title": "Lord of Dragonstone",
-    "family": " Baratheon",
+    "family": "Baratheon",
     "image": "stannis.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/stannis.jpg"
   },
@@ -205,7 +205,7 @@
     "lastName": "Drogo",
     "fullName": "Khal Drogo",
     "title": "Khal",
-    "family": " Targaryen",
+    "family": "Targaryen",
     "image": "khal-drogo.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/khal-drogo.jpg"
   },
@@ -215,7 +215,7 @@
     "lastName": "Tyrell",
     "fullName": "Margaery Tyrell",
     "title": "Queen of the Seven Kingdoms",
-    "family": " Tyrell",
+    "family": "Tyrell",
     "image": "margaery-tyrell.jpg",
     "imageUrl": "https://thronesapi.com/assets/images/margaery-tyrell.jpg"
   },

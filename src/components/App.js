@@ -3,33 +3,39 @@ import React, { useState } from 'react';
 import '../stylesheets/App.scss';
 import CharacterList from './CharacterList';
 import data from '../data/data.json';
-import SearchCharacter from './SearchCharacter';
-import SearchHouse from './SearchHouse';
 import Searchs from './Searchs';
 
-
-
 function App() {
-  const [characters, setCharacter] = useState(data)
+  const [characters, setCharacter] = useState(data);
+  const [nameFilter, setNameFilter] = useState('');
+  const [nameHouse, setHouseFilter] = useState('all');
 
-  const [filterSearch, setFilterSearch] = useState([]);
+  //Función manejadora de evento
+  const handleSearch = (data) => {
+    if (data.key === 'name') {
+      setNameFilter(data.value);
+    } else if (data.key === 'house') {
+      setHouseFilter(data.value);
+    }
+  };
 
-  const handleSearchCharacter = (data) => {
-    console.log('manejando los filtros', data);
-  }
 
-  const filterCharacter = characters.filter(character => {
-    return character.fullName.includes(filterSearch)
-  })
-
+  //Filtrado de personajes
+  const filterCharacters = characters
+    .filter((character) => {
+      return character.fullName
+        .toUpperCase()
+        .includes(nameFilter.toUpperCase());
+    })
+    .filter((house) => {
+      return nameHouse === 'all' ? true : house.family === nameHouse;
+    });
 
   return (
     <div className='wrapper'>
       <h1 className='title'>Game Of Thrones</h1>
-      <Searchs />
-      <SearchCharacter searchCharacter={handleSearchCharacter} filterSearch={filterSearch} />
-      <SearchHouse />
-      <CharacterList characters={filterCharacter} />
+      <Searchs searchs={handleSearch} />
+      <CharacterList characters={filterCharacters} />
     </div>
   );
 }

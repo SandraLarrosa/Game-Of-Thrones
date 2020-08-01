@@ -3,8 +3,8 @@ import React from 'react';
 
 const searchCharacter = props => {
 
-    const searchCharacter = (ev) => {
-        props.searchCharacter({
+    const handleSearch = (ev) => {
+        props.searchs({
             value: ev.currentTarget.value, 
             key: 'name',
         });
@@ -14,7 +14,7 @@ const searchCharacter = props => {
         <form>
             <label htmlFor='search'> Search Character: 
             </label>
-            <input type='text' id='search' name='search' value={props.filterSearch} onChange={searchCharacter}></input>
+            <input type='text' id='search' name='search' value={props.filterSearch} onChange={handleSearch}></input>
         </form>
     );
 };
