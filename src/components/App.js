@@ -1,9 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useReducer } from 'react';
+import { Link, Route, Switch } from 'react-router-dom';
 /* import getDataFromApi from '../data/getDataFromApi'; */
 import '../stylesheets/App.scss';
 import CharacterList from './CharacterList';
 import data from '../data/data.json';
 import Searchs from './Searchs';
+import CharacterDetail from './CharacterDetail';
+import Character from './Character';
 
 function App() {
   const [characters, setCharacter] = useState(data);
@@ -30,11 +33,26 @@ function App() {
       return nameHouse === 'all' ? true : house.family === nameHouse;
     });
 
+  const renderCharacterDetail = (props) => {
+    const characterId = props.match.params.id;
+    const foundCharacter = characters.find((character) => {
+      return character.id === parseInt(characterId);
+    })
+    return <CharacterDetail character={foundCharacter}/>;
+  };
+
   return (
     <div className='wrapper'>
-      <h1 className='title'>Game Of Thrones</h1>
-      <Searchs searchs={handleSearch} />
-      <CharacterList characters={filterCharacters} />
+      <Link to='/'>
+        <h1 className='title'>Game Of Thrones</h1>
+      </Link>
+      <Route exact path='/'>
+        <Searchs searchs={handleSearch} />
+        <CharacterList characters={filterCharacters} />
+      </Route>
+      <Switch>
+        <Route path='/character/:id' render={renderCharacterDetail} />
+      </Switch>
     </div>
   );
 }
